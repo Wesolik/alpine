@@ -15,6 +15,7 @@ nav ul {
   text-align: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-bottom: 5%;
 }
 nav ul li {
   padding: 10px;
@@ -25,9 +26,31 @@ nav ul li a {
   font-size: 1.6em;
   text-shadow: 0px 0px 20px #fff;
   font-weight: bold;
+  transition: text-shadow 0.3s;
 }
 nav ul li :hover {
-  text-shadow: 0px 0px 50px #fff;
+  text-shadow: 0px 0px 40px #fff;
+}
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}
+.content h1 {
+  font-size: 3em;
+  font-family: "Nerko One", cursive;
+}
+.content button {
+  background-color: #f00;
+  border-radius: 30px;
+  padding: 3%;
+  width: 15em;
+  border-color: #fff;
+  margin: 2em;
+}
+.lor {
+  overflow: auto;
+  width: 25em;
+  height: 20em;
 }
 .abt {
   display: flex;
