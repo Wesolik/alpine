@@ -53,10 +53,6 @@ nav ul li :hover {
   width: 25em;
   height: 20em;
 }
-.bot {
-  display: flex;
-  flex-direction: row;
-}
 .social {
   position: fixed;
   bottom: 0;
@@ -93,9 +89,6 @@ footer p {
   }
   .lor {
     width: fit-content;
-  }
-  .bot {
-    flex-direction: row;
   }
   .social {
     flex-direction: row;
