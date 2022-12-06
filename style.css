@@ -52,6 +52,21 @@ nav ul li :hover {
   width: 25em;
   height: 20em;
 }
+.bot {
+  display: flex;
+  flex-direction: row;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5em;
+  border-style: dashed;
+  border-color: #f00;
+}
+.social i {
+  font-size: larger;
+}
 .abt {
   display: flex;
   flex-direction: column;
