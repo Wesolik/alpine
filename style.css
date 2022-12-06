@@ -34,6 +34,7 @@ nav ul li :hover {
 .content {
   display: flex;
   justify-content: space-evenly;
+  flex-direction: row;
 }
 .content h1 {
   font-size: 3em;
@@ -57,12 +58,14 @@ nav ul li :hover {
   flex-direction: row;
 }
 .social {
+  position: fixed;
+  bottom: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 1.5em;
-  border-style: dashed;
-  border-color: #f00;
+  height: 15vw;
 }
 .social i {
   font-size: larger;
@@ -71,9 +74,30 @@ nav ul li :hover {
   display: flex;
   flex-direction: column;
   width: 25%;
-  margin-left: 10%;
+  margin: 5%;
 }
 .abt h2 {
   padding: 20px;
   font-size: 30px;
+}
+@media screen and (max-width: 720px) {
+  .content {
+    flex-direction: column;
+    margin: 5%;
+  }
+  .lor {
+    width: fit-content;
+  }
+  .bot {
+    flex-direction: row;
+  }
+  .social {
+    flex-direction: row;
+  }
+  .abt {
+    width: fit-content;
+  }
+  .social {
+    position: relative;
+  }
 }
