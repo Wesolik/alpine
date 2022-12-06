@@ -74,11 +74,17 @@ nav ul li :hover {
   display: flex;
   flex-direction: column;
   width: 25%;
-  margin: 5%;
+  margin-left: 13%;
+  margin-right: 13%;
 }
 .abt h2 {
   padding: 20px;
   font-size: 30px;
+}
+footer p {
+  margin: 2em;
+  text-align: center;
+  align-items: center;
 }
 @media screen and (max-width: 720px) {
   .content {
@@ -96,6 +102,7 @@ nav ul li :hover {
   }
   .abt {
     width: fit-content;
+    margin: 5%;
   }
   .social {
     position: relative;
